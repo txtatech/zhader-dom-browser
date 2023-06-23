@@ -36,6 +36,8 @@ You will also need to install ImageMagick, a software suite for creating, editin
 
 Usage Instructions:
 
+0. Create a folder in the same directory as the script named 'qrcodes'.
+
 1. Run the Python script. A window titled "Dom Browser/Indexer" will open.
 
 2. Enter the URL of the webpage you want to fetch in the URL field.
