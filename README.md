@@ -1,6 +1,8 @@
 # zhader-dom-browser
 DOM Browser/Indexer that fetches a site's DOM and indexes it with QR codes.
 
+![Image alt text](https://github.com/txtatech/zhader-dom-browser/blob/main/zhader-dom-browser.png)
+
 # Dom Browser/Indexer with QR Codes
 
 This Python script fetches the Document Object Model (DOM) of a webpage, indexes each HTML element with a QR code and allows you to export the HTML. It also provides a view of the fetched webpage. 
@@ -25,7 +27,8 @@ First, ensure that you have Python and pip (Python's package manager) installed.
 
 Next, install the required Python packages with the following commands:
 
-```shell
+shell
+
 pip install requests beautifulsoup4 qrcode pyqt5 PyQtWebEngine
 
 The tkinter package is included with Python, so you do not need to install it separately.
@@ -34,7 +37,7 @@ The tkinter package is included with Python, so you do not need to install it se
 
 You will also need to install ImageMagick, a software suite for creating, editing, and composing bitmap images. On Linux, use your distribution's package manager. For example, on Ubuntu or Debian, you can use the command sudo apt-get install imagemagick.
 
-Usage Instructions:
+## Usage Instructions:
 
 0. Create a folder in the same directory as the script named 'qrcodes'.
 
@@ -47,5 +50,3 @@ Usage Instructions:
 4.(Optional) Click the "Export HTML" button to save the HTML content to a file.
 
 5. You can close the program by closing the main window.
-
-![Image alt text](https://github.com/txtatech/zhader-dom-browser/blob/main/zhader-dom-browser.png)
