@@ -47,3 +47,5 @@ Usage Instructions:
 4.(Optional) Click the "Export HTML" button to save the HTML content to a file.
 
 5. You can close the program by closing the main window.
+
+![Image alt text](https://github.com/txtatech/zhader-dom-browser/blob/main/zhader-dom-browser.png)
